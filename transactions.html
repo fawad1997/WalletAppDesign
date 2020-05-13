@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+            integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <title>Expense Manager</title>
+    </head>
+<!-- Students please ignore above -->
+
+<body>
+
+
+    <!-- NavBar Component Code -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                Expense Manager
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
+                <span class="navbar-toggler-icon" />
+            </button>
+
+            <div class="collapse navbar-collapse" id="mobile-nav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dashboard.html">
+                            Dashboard
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="register.html">
+                            Sign Up
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End of NavBar -->
+
+    <!-- Project Board Starts Here MIND OTHER COMPONENTS WHEN COPY AND PASTING -->
+    <div class="container">
+        <a href="/dashboard.html" class="btn btn-default btn-lg mb-3">
+            Back
+        </a>
+        <a href="/newtransactionForm.html" class="btn btn-info btn-lg mb-3">
+            <i class="fas fa-plus-circle"> Record new Transaction</i>
+        </a>
+        <br />
+        <div class="card text-center">
+            <div class="card-header bg-success text-white">
+                <h4>UBL Account Balance</h4>
+                <h1>Rs. 27000</h1>
+            </div>
+        </div>
+        <hr />
+        <!-- Transactions STARTS HERE -->
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Description</th>
+                <th scope="col">Amount</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-danger">
+                <td>2020-04-15</td>
+                <td>PTCL Bill</td>
+                <td class="text-danger">-3000</td>
+                <td>
+                    <a class="text-info" href="/updatetransactionForm.html"><i class="fas fa-edit fa-2x"></i></a> 
+                    <span class="text-danger"><i class="fas fa-trash fa-2x"></i></span>
+                </td>
+              </tr>
+              <tr class="table-success">
+                <td>2020-04-01</td>
+                <td>Income</td>
+                <td class="text-success">+30000</td>
+                <td>
+                    <a class="text-info" href="/updatetransactionForm.html"><i class="fas fa-edit fa-2x"></i></a> 
+                    <span class="text-danger"><i class="fas fa-trash fa-2x"></i></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        <!-- Transactions ENDS HERE -->
+    </div>
+
+    <!-- PROJECT BOARD ENDS HERE -->
+    <!-- Students please ignore below -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
